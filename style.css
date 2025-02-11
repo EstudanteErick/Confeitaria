@@ -1,124 +1,30 @@
 @charset "UTF-8";
 
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
+ a {
+    text-decoration: none;
 }
 
-header {
+.header {
     background-color: #E7BCC9;
+    padding-inline: 16px;
 }
 
-.nav-bar {
+.nav {
+    max-width: 1280px;
+    height: 70px;
+    margin-inline: auto;
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem 6rem;
-}
-
-.nav-list {
-    display: flex;
     align-items: center;
-}
-
-.nav-list ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-}
-
-.nav-item {
-    margin: 0 15px;
-}
-
-.nav-link {
-    text-decoration: none;
-    color: white;
-    font-size: 1.15rem;
-    font-weight: 400;
-}
-
-.mobile-menu-icon {
-    display: none;
-}
-
-.mobile-menu {
-    display: none;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
+    max-width: 48px;
 }
 
-img {
-    max-width: 170px;
-}
-
-
-@media screen and (max-width:730px){
-    .nav-bar {
-        padding: 1.5rem 4rem;
-    }
-
-    .nav-item {
-        display: none;
-    }
-
-    .login-buttom {
-        display: none;
-    }
-
-    .mobile-menu-icon {
-        display: block;
-        position: relative;
-        top: 123px;
-        left: -257px;
-    }
-
-    .mobile-menu-icon button {
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-    }
-
-    .mobile-menu ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 1rem;
-    }
-
-    .mobile-menu .nav-item {
-        display: block;
-        padding-top: 1.2rem;
-    }
-
-    .mobile-menu .login-buttom {
-        display: block;
-        padding: 1rem 2rem;
-    }
-
-    .mobile-menu .login-buttom button {
-        width: 100%;
-    }
-    
-    .open {
-        display: block;
-    }
-
-        a#img {
-            position: relative;
-        }
-
-        .logo > img {
-            position: relative;
-            top: 50%;
-            left: 50%;
-            transform: translate(-32%, -50%);
-        }
-}
 
