@@ -60,6 +60,54 @@
     transition: 0.3s;
 }
 
+a#img {
+    max-width: 400px;
+}
+
+#c {
+    max-width: 484px;
+    margin-left: 638px;
+    top: 72px;
+    position: relative;
+    margin-top: -421px;
+}
+
+h2 {
+    font-size: 34px;
+    margin-top: 77px;
+    margin-left: 20px;
+    position: relative;
+    top: -37px;
+    color: #6c707d;
+}
+
+p {
+    color: #6c707d;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 25px;
+    text-align: justify;
+    max-width: 58%;
+    position: relative;
+    margin-left: 20px;
+}
+
+a#b {
+    text-decoration: none;
+    background: #d61368;
+    color: #fff;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 35px;
+    margin-top: 0px;
+    margin-left: 19px;
+    display: inline-block;
+    border: 0;
+    transition: all .3s;
+}
+
 @media (max-width: 750px) {
     .hamburger {
         display: block;
